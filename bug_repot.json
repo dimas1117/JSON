@@ -1,1 +1,15 @@
-
+{
+  "bug_report": {
+    "number": 1,
+    "summary":"register with wrong domain in email",
+    "description":"there is opportunity to register on site with incorect domain in field 'your email adress'",
+    "actual_result":"register complete with message 'complete'",
+    "expected result":"message 'enter correct email'",
+    "enviroment": ["win 10 Pro 2004 19041.508", "chrome 98.0.4758.102"],
+    "steps_to_reproduce":[ "1. Open URL https://ksendzov.com/", "2. Scroll down and fill fields with 'email'= asd@asd.ry 'name' =asd 'comment'= asd",
+         "click 'Пообщаться'"],
+    "severity": " minor",
+    "priority": "low"
+                }
+}
+                          
